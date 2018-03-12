@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+  margin-bottom: 30px;
+  display: block;
+}
+
+.App-container {
+  padding: 20px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+div.left, div.middle {
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+div.right {
+  width:50%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+div.left span, div.middle span, div.right span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+div.left div a, div.middle div a {
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 7px;
+  color: #333;
+  background-color: burlywood;
+  padding: 5px 10px;
+}
+
+div.middle div a {
+  background-color: lightcyan;
+}
+
+div.left div a.active {
+  font-weight: bold;
+  background-color: darkgoldenrod;
+}
+
+div.middle div a.active {
+  font-weight: bold;
+  background-color: cornflowerblue;
+}
+
+
+div.right div.weatherItems div {
+  display: block;
+  margin-bottom: 7px;
+}
